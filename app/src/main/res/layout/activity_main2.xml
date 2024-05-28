@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="원문 : \nKotlin MultiPlatform은 모바일 뿐만 아니라 JVM, Native 및 JS 타깃을 지원하는 넓은 개념의 기술로 안드로이드 네이티브 앱 개발자들에게는 iOS 개발을 할 수 있는 사실에 큰 주목을 받게 됐다.
+JetBrains은 Compose MultiPlatform이라는 두 플랫폼의 UI를 한 번에 구현할 수 있는 프레임워크를 공식 지원한다고 발표했다.
+새로운 멀티플랫폼 기술이 나올 때마다, 네이티브 개발자들은 “정말 해도 괜찮을까?’라는 생각을 하게 됩니다. 이에 대한 답을 찾는데에 도움이 될만한 적용 사례들을 소개합니다.
+현재 KMP 상황으로는 모바일 앱 개발만을 위해서 적용하기에는 회사의 리소스가 부담되고, 데스크탑 앱까지도 공통된 서비스를 제공하는 경우에는 고려해볼만한 기술인듯 싶습니다."/>
+    <TextView
+        android:id="@+id/textVIew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView1"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
